@@ -1,0 +1,134 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FAEBD7;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    position:absolute;
+    left:50%;
+    top:5%;
+    width:325px;
+    margin:0px 0px 0px -162px;
+}
+
+.page {
+
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    text-align:center;
+    margin:0px;
+    overflow:visible;
+    padding:30px 0px;
+    text-align:center;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+.nav {
+    margin: 0px 0px 30px 0px;
+}
+
+.recorder {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+}
+
+.button {
+    text-align: center;
+    display: block;
+    letter-spacing: 1.3px;
+    font-family: 'Lucida Grande';
+    font-size: 24px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    border: 1px solid #777777;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    padding: 10px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    outline: none;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.38);
+}
+
+.success:active {
+    background-color: #00CC66;
+}
+
+.success {
+    background-color: #54C9A8;
+    color: white;
+}
+
+.delete {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+#workout-records{
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+tr{
+    border-bottom: 1px dotted silver;
+}
+
+textarea {
+    width:100%;
+    height:100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box;
+}
