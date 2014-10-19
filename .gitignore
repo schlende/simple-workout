@@ -1,2 +1,4 @@
+simple-workout/platforms/android/ant.properties
 simple-workout/platforms/android/ant-build/*
 .idea
+*.DS_Store
